@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>HOLE BLACK | 데스크 셋업 & 테크 큐레이션</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Pretendard, -apple-system, sans-serif; }
+    body { background: linear-gradient(180deg, #090d16 0%, #030712 100%); color: #f8fafc; min-height: 100vh; padding: 32px 16px 60px 16px; display: flex; flex-direction: column; align-items: center; }
+    .container { width: 100%; max-width: 440px; }
+    .profile-header { text-align: center; margin-bottom: 28px; }
+    .profile-avatar { width: 84px; height: 84px; border-radius: 50%; background: linear-gradient(135deg, #1e293b, #0f172a); border: 2px solid #3b82f6; display: inline-flex; align-items: center; justify-content: center; font-size: 34px; box-shadow: 0 0 24px rgba(59, 130, 246, 0.4); margin-bottom: 14px; }
+    .profile-handle { font-size: 14px; color: #3b82f6; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .profile-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+    .profile-desc { font-size: 13px; color: #94a3b8; line-height: 1.5; }
+    .card-list { display: flex; flex-direction: column; gap: 16px; }
+    .product-card { background: rgba(23, 32, 54, 0.85); border: 1px solid rgba(59, 130, 246, 0.25); border-radius: 20px; padding: 16px; display: flex; gap: 16px; backdrop-filter: blur(16px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
+    .card-thumb { width: 100px; height: 100px; border-radius: 14px; background-size: cover; background-position: center; position: relative; flex-shrink: 0; border: 1px solid rgba(255, 255, 255, 0.1); }
+    .card-index { position: absolute; top: 6px; left: 6px; background: rgba(0, 0, 0, 0.8); color: #fff; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 6px; }
+    .card-info { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
+    .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; margin-bottom: 6px; background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #fff; align-self: flex-start; }
+    .badge.hot { background: linear-gradient(135deg, #0ea5e9, #0284c7); color: #fff; }
+    .card-title { font-size: 15px; font-weight: 700; line-height: 1.35; margin-bottom: 4px; color: #f8fafc; }
+    .card-hook { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+    .buy-btn { display: block; width: 100%; text-align: center; background: linear-gradient(135deg, #3b82f6, #2563eb); color: #fff; text-decoration: none; font-size: 13px; font-weight: 700; padding: 10px 14px; border-radius: 10px; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4); transition: transform 0.1s ease; }
+    .buy-btn:active { transform: scale(0.98); }
+    .footer-note { text-align: center; margin-top: 40px; font-size: 11px; color: #64748b; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <div class="profile-avatar">⚡️</div>
+      <div class="profile-handle">@holeblack.official</div>
+      <h1 class="profile-title">HOLE BLACK 큐레이션 샵</h1>
+      <p class="profile-desc">하이엔드 데스크테리어 & 감성 테크 셋업<br>화제 영상 속 실물 제품 좌표 바로가기</p>
+    </div>
+    <div class="card-list">
+      <!-- 2호 제품 (최신 라이브) -->
+      <div class="product-card">
+        <div class="card-thumb" style="background-image: url('https://replacement-automation-future-member.trycloudflare.com/assets/run_20261013_183000/holeblack/photo1.jpg')">
+          <span class="card-index">#02</span>
+        </div>
+        <div class="card-info">
+          <span class="badge hot">⚡️ 알루미늄 외골격</span>
+          <h3 class="card-title">그라바스타 머큐리 K1 Pro 메탈 키보드</h3>
+          <p class="card-hook">도각도각 구름 타건감 & 사이버틱 데스크 셋업</p>
+          <a href="https://www.coupang.com/np/search?component=&q=그라바스타+머큐리+K1+Pro" target="_blank" rel="noopener noreferrer" class="buy-btn">구매 좌표 바로가기 ➔</a>
+        </div>
+      </div>
+
+      <!-- 1호 제품 -->
+      <div class="product-card">
+        <div class="card-thumb" style="background-image: url('https://replacement-automation-future-member.trycloudflare.com/assets/run_20261013_093700/holeblack/photo1.jpg')">
+          <span class="card-index">#01</span>
+        </div>
+        <div class="card-info">
+          <span class="badge">데스크 필수템</span>
+          <h3 class="card-title">Qi2 마그네틱 메탈 스탠드 거치대</h3>
+          <p class="card-hook">책상 위 선 하나 없이 끝내는 3in1</p>
+          <a href="https://www.coupang.com/np/search?component=&q=Qi2+마그네틱+스탠드+거치대" target="_blank" rel="noopener noreferrer" class="buy-btn">구매 좌표 바로가기 ➔</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-note">© 2026 HOLE BLACK. All Rights Reserved.</div>
+  </div>
+</body>
+</html>
